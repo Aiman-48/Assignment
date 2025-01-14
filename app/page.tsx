@@ -1,36 +1,19 @@
 import Link from "next/link";
+// import Header from "../component/header";
 
-export default function Home() {  // Capitalize component name
+// import Footer from "../component/footer";
+
+export default function Home() {
+  // Capitalize component name
   return (
+    <div>
+     
 
-    <ul>
-      <li>home</li>
-      <Link href="/about"><li>About</li></Link>
-      <Link href="/carrier"><li>carrier</li></Link>
-      <Link href="/contact-us"><li>contact-us</li></Link>
-    </ul>
-    // <ul>
-    //   <li>
-    //     <Link href="/carrier">
-    //       <a>Carrier</a>  {/* Add links for navigation */}
-    //     </Link>
-    //   </li>
+      <ul>
+        <li>home</li>
+      </ul>
 
-    //   <li>
-    //     <Link href="/about">
-    //       <a>About</a>  {/* Add links for navigation */}
-    //     </Link>
-    //   </li>
-
-    //   <li>
-    //     <Link href="/contact-us">
-    //       <a>contact-us</a>  {/* Add links for navigation */}
-    //     </Link>
-    //   </li>
-
-
-
-    // </ul>
-  );  
-
+    
+    </div>
+  );
 }
